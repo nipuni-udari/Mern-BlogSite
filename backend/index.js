@@ -20,7 +20,7 @@ dotenv.config()
 app.use(express.json())
 //---- step : 2.3 last ma file crate garne time
 app.use("/images", express.static(path.join(__dirname, "/images")))
-const mongoURI = 'https://mern-udari-blogsite-frontend.vercel.app';
+const mongoURI = 'mongodb://127.0.0.1:27017/blog';
 
 //---- step : 1.3
 mongoose
