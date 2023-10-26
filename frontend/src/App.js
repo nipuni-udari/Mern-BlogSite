@@ -24,10 +24,10 @@ const App = () => {
       <Router>
         <Header />
         <Switch>
-          <Route exact path='/' component={Home} />
+          <Route exact path='https://mern-udari-blogsite.vercel.app/' component={Home} />
           <Route exact path='/about' component={About} />
           <Route exact path='/contact' component={Contact} />
-          <Route exact path='/login' component={Login} />
+          <Route exact path='https://mern-udari-blogsite.vercel.app//login' component={Login} />
           <Route exact path='/register' component={Regsiter} />
           <Route exact path='/post/:id' component={DetailsPages} />
           <Route exact path='/account' component={Account} />
