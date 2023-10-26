@@ -20,7 +20,7 @@ dotenv.config()
 app.use(express.json())
 //---- step : 2.3 last ma file crate garne time
 app.use("/images", express.static(path.join(__dirname, "/images")))
-const mongoURI = 'mongodb://127.0.0.1:27017/blog';
+const mongoURI = 'mongodb+srv://udari:2000@cluster0.kxhoz92.mongodb.net/?retryWrites=true&w=majority';
 
 //---- step : 1.3
 mongoose
