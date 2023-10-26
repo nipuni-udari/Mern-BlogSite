@@ -1,6 +1,6 @@
 # Coding-Samurai-Task3 Web development
 
-## Mern personal blog site
+## Mern udari's personal blog site
 
 
 
